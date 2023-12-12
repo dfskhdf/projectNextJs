@@ -1,0 +1,88 @@
+.body{
+    position: absolute;
+    border: gray 1px solid;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    width: 400px;
+    height: 250px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translate(0, -50%);
+    
+}
+
+.elments{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translate(0, -80%);
+}
+
+.text{
+    display: block;
+    width: 72px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    color: #403866;
+}
+
+.input{
+    display: flex;
+    width: 100%;
+    height: 2em;
+    margin-bottom: 5px;
+    text-indent: 10px;
+    font-size:large;
+    background-color: rgb(230, 230, 230);
+    border: gray;
+    border-radius: 10px;
+}
+
+.butt{
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #827ffe;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border: none;
+    transition: background-color 500ms ease;
+}
+.butt:hover{
+    background-color: #3d3b7a
+}
+
+@media screen and (min-width: 280px)   and (max-device-width: 420px) {
+    .body{
+        position: absolute;
+        border: gray 1px solid;
+        border-radius: 10px;
+        background-color: rgb(240, 240, 240);
+        width: 270px;
+        height: 200px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 50%;
+        transform: translate(0, -50%);
+        
+    }
+    .elments{
+        position: absolute;
+        width: 170px;
+        height: 100px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 50%;
+        transform: translate(0, -80%);
+    }
+}
